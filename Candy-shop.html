@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+</head>
+<body>
+
+    <form action="" onsubmit="formsubmit(event)">
+    <label for="candyName">Candy Name</label>
+    <input type="text" id="candyName">
+    <label for="Description">Description</label>
+    <input type="text" id="Description">
+    <label for="price">Price</label>
+    <input type="number" id="price">
+    <label for="quantity">Quantity</label>
+    <input type="number"  id="quantity">
+    <button type="submit">Add Item</button>
+    </form>
+
+    <table id="listofitem">
+        <tr>
+            <th>Candy Name</th>
+            <th>Description</th>
+            <th>price</th>
+            <th>Quantity</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+
+     </table> 
+
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="Candy-shop.js"></script>
+</body>
+</html>
